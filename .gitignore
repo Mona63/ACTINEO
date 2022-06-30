@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ACTINEO/v16
+/src/ACTINEO.Core/obj
+/src/ACTINEO.Infrastructure/obj
+/src/ACTINEO.Web/obj
+/src/ACTINEO.Core/bin/Debug/net5.0
+/src/ACTINEO.Infrastructure/bin/Debug/net5.0
+/src/ACTINEO.Web/bin/Debug/net5.0
+/test/ACTINEO.Test/bin/Debug/net5.0
+/test/ACTINEO.Test/obj
+/.vs/ACTINEO/DesignTimeBuild
+/.vs/ACTINEO/config
+/src/ACTINEO.Service/bin/Debug/net5.0
+/src/ACTINEO.Service/obj
+/src/ACTINEO.Web/ACTINEO.Web.csproj.user
+/src/ACTINEO.Web/Cars.sqlite
+/test/ACTINEO.Test/ACTINEO.Test.csproj.user
