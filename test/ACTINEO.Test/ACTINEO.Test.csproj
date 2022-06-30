@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Base\Constants.cs" />
+    <Compile Remove="Base\TestStartup.cs" />
+    <Compile Remove="ConstructorTests.cs" />
+    <Compile Remove="UnitTests\CarAdvertRepositoryTest.cs" />
+    <Compile Remove="UnitTests\CarContextTest.cs" />
+    <Compile Remove="UnitTests\CreateCarAdvertModelTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ACTINEO.Infrastructure\ACTINEO.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\ACTINEO.Web\ACTINEO.Web.csproj" />
+  </ItemGroup>
+
+</Project>
